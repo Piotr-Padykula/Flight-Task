@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Flight.Domain.FlightPrice;
+namespace Flight.Domain.FlightReservation;
 
-public class FlightPrice
+public class TicketConfig
 {
+    public decimal MinTicketPrice { get; set; } = 20;
 }

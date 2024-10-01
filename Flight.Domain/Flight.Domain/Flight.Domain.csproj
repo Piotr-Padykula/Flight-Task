@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="FlightReservation\Exceptions\" />
+    <Folder Include="FlightReservation\Repositories\" />
+  </ItemGroup>
+
 </Project>
